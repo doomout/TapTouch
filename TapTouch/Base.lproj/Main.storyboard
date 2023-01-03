@@ -109,6 +109,11 @@
                             <constraint firstItem="zmL-H8-He5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="k9H-FG-9Ke"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="txtMessage" destination="9Hp-ZT-KjP" id="ocJ-u1-77Y"/>
+                        <outlet property="txtTapCount" destination="5EC-yq-RYQ" id="kbm-lk-eHM"/>
+                        <outlet property="txtTouchCount" destination="ncg-s6-ELx" id="klF-do-cMJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,14 +1,10 @@
-//
-//  ViewController.swift
-//  TapTouch
-//
-//  Created by 현구김 on 2023/01/03.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var txtMessage: UILabel!
+    @IBOutlet var txtTapCount: UILabel!
+    @IBOutlet var txtTouchCount: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
